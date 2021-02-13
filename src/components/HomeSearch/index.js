@@ -8,6 +8,7 @@ import styles from './styles';
 
 const HomeSearch = () => {
   return (
+    {/* Input Box */}
     <View>
       <Text style={styles.inputBox}>Where To?</Text>
 
@@ -16,6 +17,13 @@ const HomeSearch = () => {
         <Text>Now</Text>
         <MaterialIcons name={'keyboard-arrow-down'} size={16} />
       </View>
+    </View>
+
+    <View style={styles.row}>
+      <View style={styles.iconContainer}>
+        <AntDesigned name={'clockcircle'} size={20} color={'#535353'} />
+      </View>
+      <Text style={styles.destinationText}>Spin Nightclub</Text>
     </View>
   );
 };
