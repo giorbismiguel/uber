@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 10,
     borderBottom: 1,
-    borderColor: '#dbdbdb'
+    borderColor: '#dbdbdb',
   },
 
   iconContainer: {

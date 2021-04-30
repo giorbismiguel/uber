@@ -1,15 +1,10 @@
 import React from 'react';
 import {View, Text} from 'react-native';
+import styles from './styles';
 
 const HomeMap = () => {
   return (
-    <View
-      style={{
-        height: 300,
-        backgroundColor: '#a0abff',
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}>
+    <View style={styles.style}>
       <Text>I am a map</Text>
     </View>
   );
